@@ -1,0 +1,7 @@
+x=msgbox("fail" ,4+32, "fail")
+fname=inputbox("fail" ,"fail")
+fname=inputbox("fail; " ,"fail")
+x=msgbox("fail " ,4+64, "fail")
+x=msgbox("fail" ,4+32, "fail")
+x=msgbox("fail" ,2+16, "fail")
+x=msgbox("fail" ,2+16, "you're not getting anything else other than 'fail'")
