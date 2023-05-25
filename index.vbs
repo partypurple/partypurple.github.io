@@ -1,10 +1,12 @@
-<!DOCTYPE html>
+<script language="VBScript">
+ Dim htm
+htm = "<!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1"">
 <style>
 body {
-  font-family: "Lato", sans-serif;
+  font-family: ""Lato"", sans-serif;
 }
 
 .sidenav {
@@ -45,14 +47,14 @@ body {
 </head>
 <body>
 
-<div class="sidenav">
-  <a href="index.html">About the Purple Party</a>
-  <a href="promises.html">Our promises</a>
-  <a href="listofpromises.xml">XML list of promises (may be useless)</a>
+<div class=""sidenav"">
+  <a href=""index.html"">About the Purple Party</a>
+  <a href=""promises.html"">Our promises</a>
+  <a href=""listofpromises.xml"">XML list of promises (may be useless)</a>
   
 </div>
 
-<div class="main">
+<div class=""main"">
   <h2>About the Purple Party</h2>
   <p>The Purple Party attempts to meet all of your needs that the school fails to meet, this inludes but limited to: left-handed accessories, wider lockers, after-school tutoring sessions, etc. </p>
   <p>We'd also like to eliminate French Immersion as we feel it's too elitist and it's better off being an activity for ASAP.</p>
@@ -61,3 +63,6 @@ body {
 
 </body>
 </html> 
+"
+document.write htm
+</script>
